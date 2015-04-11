@@ -26,7 +26,7 @@ var App = React.createClass({
   changeNewUserName: function(event) {
     this.setState({ new_name: event.target.value });
   },
-  createUser: function() {
+  addUser: function() {
     var _this = this;
 
     User.create({
@@ -81,8 +81,8 @@ var App = React.createClass({
               value={this.state.new_name}
               onChange={this.changeNewUserName}
             />
-            <button className='btn btn-primary' onClick={this.createUser}>
-              Create
+            <button className='btn btn-primary' onClick={this.addUser}>
+              Add
             </button>
           </div>
 
