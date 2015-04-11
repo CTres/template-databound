@@ -41,7 +41,7 @@ var App = React.createClass({
   },
   render: function() {
     return (
-      <div className='container'>
+      <div className='container col-md-6 col-md-offset-3'>
         <header className='row alert alert-info'>
           <div className='text-center'>
             This is a static website hosted on closeheat that connects to Heroku
@@ -77,7 +77,7 @@ var App = React.createClass({
           <ul>
             {_.map(this.state.users, function(user) {
               return (
-                <li className='text-center' key={user.id}>
+                <li className='text-left' key={user.id}>
                   <img src='img/avatar.png' />
                   {user.name}
                 </li>
