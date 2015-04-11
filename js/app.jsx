@@ -49,15 +49,27 @@ var App = React.createClass({
           </div>
 
           <div className='text-center'>
-            <a className='btn btn-xs btn-primary' href='http://github.com'>
-              Frontend code
-            </a>
-            <a className='btn btn-xs btn-primary' href='http://github.com'>
-              Backend code
-            </a>
-            <a className='deploy-backend btn btn-xs' href='http://heroku.com'>
-              Deploy own copy of backend to Heroku
-            </a>
+            <div>
+              <a className='btn btn-xs btn-primary' target='_blank'
+                href='https://github.com/closeheat/template-databound/blob/master/js/app.jsx'>
+
+                Frontend code
+              </a>
+              <a className='deploy-frontend btn btn-xs' href='http://app.closeheat.com/apps/template?github=closeheat/template-databound'>
+                Deploy own copy of frontend to closeheat
+              </a>
+            </div>
+
+            <div>
+              <a className='btn btn-xs btn-primary' target='_blank'
+                href='https://github.com/closeheat/databound_backend_app/commit/a5470c62a90cfebc70bd2e6b61d173861eb8ac34'>
+
+                Backend code
+              </a>
+              <a className='deploy-backend btn btn-xs' href='https://heroku.com/deploy?template=https://github.com/closeheat/databound_backend_app'>
+                Deploy own copy of backend to Heroku
+              </a>
+            </div>
           </div>
         </header>
 
