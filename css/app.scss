@@ -1,0 +1,36 @@
+body {
+  padding: 2em 0;
+}
+h1 {
+  color: #F36364;
+}
+
+header {
+  .btn {
+    margin: 0 .2em;
+
+    &.deploy-backend {
+      background-color: #574E8C;
+      color: #fff;
+    }
+  }
+}
+
+ul {
+  padding: 0;
+
+  img {
+    width: 3em;
+    height: 3em;
+    margin-right: 1em;
+  }
+
+  li {
+    list-style-type: none;
+    height: 5em;
+    line-height: 5em;
+    background-color: #35BBA6;
+    color: #fff;
+    margin: 1em 0;
+  }
+}
