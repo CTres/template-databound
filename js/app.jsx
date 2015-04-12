@@ -55,7 +55,9 @@ var App = React.createClass({
 
                 Frontend code
               </a>
-              <a className='deploy-frontend btn btn-xs' href='http://app.closeheat.com/apps/template?github=closeheat/template-databound'>
+              <a className='deploy-frontend btn btn-xs' target='_blank'
+                href='http://app.closeheat.com/apps/template?github=closeheat/template-databound'>
+
                 Deploy own copy of frontend to closeheat
               </a>
             </div>
@@ -66,7 +68,9 @@ var App = React.createClass({
 
                 Backend code
               </a>
-              <a className='deploy-backend btn btn-xs' href='https://heroku.com/deploy?template=https://github.com/closeheat/databound_backend_app'>
+              <a className='deploy-backend btn btn-xs' target='_blank'
+                href='https://heroku.com/deploy?template=https://github.com/closeheat/databound_backend_app'>
+
                 Deploy own copy of backend to Heroku
               </a>
             </div>
